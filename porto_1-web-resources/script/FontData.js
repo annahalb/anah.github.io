@@ -8,6 +8,9 @@ function reportWindowSize() {
 	}
 }
 
+window.onresize = reportWindowSize;
+window.onload = reportWindowSize;
+
 
 var nameArray = ["Accanthis ADF Std No2", "Accanthis ADF Std No2", "Sathu"];
 
